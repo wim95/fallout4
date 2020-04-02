@@ -5586,7 +5586,9 @@ plugins:
   - name: 'No Junk Comments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/10365' ]
     group: *dialogueGroup
-    after: [ 'PlayerComments.esp' ]
+    after:
+      - 'PiperCaitCurieDialogueOverhaul.esp'
+      - 'PlayerComments.esp'
 
   - name: 'PlayerComments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/22166' ]
