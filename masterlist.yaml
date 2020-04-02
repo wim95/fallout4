@@ -811,8 +811,12 @@ groups:
     description: 'A group for mods that overhaul npcs appearance/outfits and character level/stats.'
     after: [ *itemsGroup ]
 
-  - name: &scrapGroup Scrap Everything
+  - name: &dialogueGroup Dialogue
+    description: 'A group for mods that improve or add new dialogue.'
     after: [ *npcOverhaulsGroup ]
+
+  - name: &scrapGroup Scrap Everything
+    after: [ *dialogueGroup ]
 
   - name: &horizonGroup Horizon
     description: 'A group for Horizon modules that need to be sorted late.'
