@@ -5594,6 +5594,13 @@ plugins:
       - 'PiperCaitCurieDialogueOverhaul.esp'
       - 'PlayerComments.esp'
 
+  - name: 'PiperCaitCurieDialogueOverhaul.esp'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/41785' ]
+    after:
+      - 'FlirtyCommonwealth.esp'
+      - 'IcebreakerCDO-Piper.esp'
+      - 'ImmersiveGenericDialogues.esp'
+
   - name: 'PlayerComments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/22166' ]
     group: *dialogueGroup
