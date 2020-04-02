@@ -4611,6 +4611,10 @@ plugins:
         util: 'FO4Edit v3.2.3v'
   - name: 'Deeper Thoughts (\(Curie\)|- (Expressive )?Curie)\.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/25050' ]
+    after:
+      - 'PiperCaitCurieDialogueOverhaul.esp'
+      - 'PlayerComments.esp'
+      - 'PlayerComments_PiperCaitCurieDialogueOverhaul_Patch.esp'
     msg:
       - <<: *useOnlyOneX
         condition: 'many("Deeper Thoughts (\(Curie\)|- (Expressive )?Curie)\.esp")'
