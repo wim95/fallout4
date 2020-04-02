@@ -5575,6 +5575,10 @@ plugins:
     url: [ 'https://www.nexusmods.com/fallout4/mods/27019' ]
     after: [ 'Z_Horizon.esp' ]
 
+  - name: 'PlayerComments.esp'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/22166' ]
+    group: *dialogueGroup
+
 ###### Horizon ######
   - name: 'Z_(Architect|Horizon)\.es(m|p)'
     url: [ 'https://www.nexusmods.com/fallout4/mods/17374' ]
