@@ -5593,6 +5593,7 @@ plugins:
     after:
       - 'PiperCaitCurieDialogueOverhaul.esp'
       - 'PlayerComments.esp'
+      - 'SuperMutantRedux.esp'
 
   - name: 'PiperCaitCurieDialogueOverhaul.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/41785' ]
