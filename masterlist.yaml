@@ -5575,6 +5575,14 @@ plugins:
     url: [ 'https://www.nexusmods.com/fallout4/mods/27019' ]
     after: [ 'Z_Horizon.esp' ]
 
+  - name: 'NickValentineRomance.esp'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/13717' ]
+    group: *dialogueGroup
+    after:
+      - 'No Junk Comments.esp'
+      - 'PiperCaitCurieDialogueOverhaul.esp'
+      - 'PlayerComments.esp'
+
   - name: 'No Junk Comments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/10365' ]
     group: *dialogueGroup
