@@ -5575,6 +5575,11 @@ plugins:
     url: [ 'https://www.nexusmods.com/fallout4/mods/27019' ]
     after: [ 'Z_Horizon.esp' ]
 
+  - name: 'No Junk Comments.esp'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/10365' ]
+    group: *dialogueGroup
+    after: [ 'PlayerComments.esp' ]
+
   - name: 'PlayerComments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/22166' ]
     group: *dialogueGroup
