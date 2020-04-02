@@ -5578,6 +5578,8 @@ plugins:
   - name: 'PlayerComments.esp'
     url: [ 'https://www.nexusmods.com/fallout4/mods/22166' ]
     group: *dialogueGroup
+  - name: 'PlayerComments_PiperCaitCurieDialogueOverhaul_Patch.esp'
+    after: [ 'PlayerComments_IceBreakerCDO-Piper_Patch.esp' ]
 
 ###### Horizon ######
   - name: 'Z_(Architect|Horizon)\.es(m|p)'
